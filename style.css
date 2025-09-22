@@ -1,0 +1,53 @@
+/* Blank stylesheet */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: darkblue;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: slategray;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
+.profile-card {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  margin: 3rem auto;
+  max-width: 400px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+}
+
+.profile-card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+}
+
+.profile-card ul li {
+  margin-bottom: 0.5rem;
+}
